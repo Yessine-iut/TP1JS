@@ -300,7 +300,7 @@
       }*/
       
           }
-
+//Décale un cookie qui doit disparaitre jusqu'à arrivé tout en haut puis le mettre en visible
           enlever1Coockie(ligne,colonne){
             this.tabCoockies[ligne][colonne].htmlImage.dataset.marque=0;
 
@@ -327,7 +327,7 @@
             
 
           }
-
+//Pas utilisé
           sleep(milliseconds) {
             var start = new Date().getTime();
             for (var i = 0; i < 1e7; i++) {
@@ -337,7 +337,7 @@
             }
           }
 
-
+//Fonction qui va permettre de décaler tous les cookies qui ont été marqué c'est à dire qui doivent disparaitre
           enleverCoockieMarque(){
   let isMarque=1;
       while(isMarque==1){
