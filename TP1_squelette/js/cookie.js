@@ -4,7 +4,6 @@ class Cookie {
   colonne;
   htmlImage;
   marque;
-  disparu;
   static urlsImagesNormales = [
     "./assets/images/Croissant@2x.png",
     "./assets/images/Cupcake@2x.png",
